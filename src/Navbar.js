@@ -1,5 +1,5 @@
 import './index.css';
-
+import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 
 function Navbar(){
 return (<div>
@@ -8,7 +8,7 @@ return (<div>
     <i class='fas fa-bars'> <span id='fountain'>Fountain</span></i>
     
 </div>
-<i className='far fa-user-circle' ></i>
+ <AccountCircleOutlinedIcon className='far fa-user-circle' fontSize='35px'/>
      </div> 
      </div>
 );
