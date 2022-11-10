@@ -6,11 +6,11 @@ function Navbar(){
 return (<div>
 <div className="navbar">
     <div >
-     <span><MenuOutlinedIcon className='fas fa-bars' fontSize='30px'/><span id='fountain'>Fountain</span></span>
-    
-</div>
+     <span id='bars-container'><MenuOutlinedIcon className='fas fa-bars' fontSize='30px'/><span id='fountain'>Fountain</span></span>
+</div><div>
  <AccountCircleOutlinedIcon className='far fa-user-circle' fontSize='35px'/>
      </div> 
+     </div>
      </div>
 );
 }

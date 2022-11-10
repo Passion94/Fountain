@@ -27,7 +27,7 @@ body {
  
   position: relative;
   width: 100vw;
-  margin-top: 50px; 
+  margin-top: 60px; 
 }
 
  
@@ -38,11 +38,17 @@ body {
   position: relative;
   bottom: 40px;
   display: flex;
-  margin-top: 50px;  
+  align-items: center;
+ 
+  padding-bottom: 15px;  
 }
 .fa-bars{
-  font-size: 30px;
+  font-size: 35px;
 
+}
+#bars-container{
+  display: flex;
+  align-items: center;
 }
 .fa-user-circle{
   font-size: 35px;
