@@ -42,6 +42,10 @@ body {
  
   padding-bottom: 15px;  
 }
+.hidden-Navbar-links{
+  visibility: hidden;
+  display: none;
+}
 .fa-bars{
   font-size: 35px;
 
@@ -89,13 +93,125 @@ margin-top: 35px;
 background-color: #F77E23;
 color: white;
 font-weight: bold;
+border: #F77E23;
+border-radius: 5px;
 }
 
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 769px) {
 
 
+  .banner{
+    background-image: url("../public/images/banner1.svg");
+    background-color: #cccccc;
+    height: 110vh;
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    position: relative;
+    width: 100vw;
+    margin-top: 0px; 
+  }
   
+
+  .navbar{
+    background-color: transparent;
+    padding-left: 10px;
+    height: 40px;
+    position: static;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    padding-top: 75px;
+   
+    padding-bottom: 0px;  
+  }
+  .hidden-Navbar-links{
+    visibility: visible;
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+  }
+  .Navbar-links{
+padding-right: 40px;
+text-decoration: none;
+color: white;
+  }
+  .searchbar{
+    align-items: center;
+    display: flex;
+    margin-left: 200px;
+  }
+  .Navbar-links1{padding-right: 30px;
+    text-decoration: none;
+    color: white;
+  }
+  #register{
+    background-color: white;
+    color: #F77E23;
+    font-weight: bold;
+    display: inline-block;
+    height: 30px;
+    padding: 7px 20px 5px 20px ;
+    border-radius: 5px;
+  }
+  .fa-bars{
+    font-size: 35px;
+    visibility: hidden;
+  
+  }
+  #bars-container{
+    display: flex;
+    align-items: center;
+  }
+  .fa-user-circle{
+    font-size: 35px;
+    color: #F77E23;
+    visibility: hidden;
+    
+  }
+  #fountain{
+    padding-left: 45px;
+    padding-right: 100px;
+    font-size:30px;
+    font-style: Source Sans Pro;
+    color: #F77E23;
+    font-weight: bold;
+  }
+  
+
+  .banner-text{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-style:Poppins;
+    
+  }
+  .banner-text-header{
+    padding-left: 300px;
+    padding-right:390px ;
+  
+  }
+  .banner-text-paragraph{
+    opacity: 1;
+    font-size: 20px;
+    padding-left: 400px;
+    padding-right:450px ;
+   
+  }
+  
+  .buttons{
+  padding: 20px 50px 20px 50px;
+  margin-top: 25px;
+  background-color: #F77E23;
+  color: white;
+  font-weight: bold;
+  border: #F77E23;
+  border-radius: 5px;
+  }
+  
+
 
 }
